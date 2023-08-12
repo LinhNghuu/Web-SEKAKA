@@ -56,7 +56,7 @@ function changeRadio(type) {
     input.required = true;
     input.placeholder = 'Enter Hourly Wage Here...';
     input.style.fontsize = '5px';
-    input.style.width = '15vw';
+    input.style.width = '15rem';
     input.setAttribute('id', 'hourlyRate');
 
     div.appendChild(label);
