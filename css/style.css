@@ -540,6 +540,46 @@ p {
 #contactForm input[type='submit']:hover {
   background-color: #2980b9;
 }
+/* Acknowledgments */
+.acknowledgment__section {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.5;
+  color: #333;
+  margin-top: 20px;
+}
+
+.acknowledgment__section h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.acknowledgment__section p {
+  margin-bottom: 15px;
+}
+
+.acknowledgment__section a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.acknowledgment__section a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.acknowledgment__section ul {
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.acknowledgment__section li {
+  margin-bottom: 10px;
+}
 
 /* -----------Responsive----------- */
 /* ---------Home Page--------- */
@@ -710,14 +750,11 @@ p {
   }
 }
 /* ------------About Me Pages------------ */
-/* For Large Devices (max-width: 1200px) */
 @media screen and (max-width: 1200px) {
   .resume__container {
     width: 80%;
   }
 }
-
-/* For Medium Devices (max-width: 992px) */
 @media screen and (max-width: 992px) {
   .resume__container {
     width: 90%;
@@ -730,8 +767,6 @@ p {
     margin-bottom: 20px;
   }
 }
-
-/* For Small Devices (max-width: 768px) */
 @media screen and (max-width: 768px) {
   .resume__container {
     width: 100%;
@@ -750,8 +785,6 @@ p {
     gap: 10px;
   }
 }
-
-/* For Extra Small Devices (max-width: 576px) */
 @media screen and (max-width: 576px) {
   .resume__container h1 {
     font-size: 1.8em;
